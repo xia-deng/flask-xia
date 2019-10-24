@@ -9,11 +9,11 @@ class Config:
     EMAIL_TOKEN_EXPIRATION=3600
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
     FLASKY_MAIL_SUBJECT_PREFIX = '[Simple Web]'
-    FLASKY_MAIL_SENDER = 'Admin <xia_jinyatai@163.com>'
-    FLASKY_ADMIN = 'xia_jinyatai@163.com'
+    FLASKY_MAIL_SENDER = 'Admin <XXXXXXXXXXX@163.com>'
+    FLASKY_ADMIN = 'XXXXXXXXXXX@163.com'
     SQLALCHEMY_TRACK_MODIFICATIONS = True
-    RECAPTCHA_PUBLIC_KEY = '6LeYIbsSAAAAACRPIllxA7wvXjIE411PfdB2gt2J'
-    RECAPTCHA_PRIVATE_KEY = '6LeYIbsSAAAAAJezaIq3Ft_hSTo0YtyeFG-JgRtu'
+    RECAPTCHA_PUBLIC_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXX'
+    RECAPTCHA_PRIVATE_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXX-JgRtu'
     # RECAPTCHA_PARAMETERS = {'hl': 'zh', 'render': 'explicit'}
     # RECAPTCHA_DATA_ATTRS = {'theme': 'dark'}
 
@@ -28,7 +28,7 @@ class DevelopmentConfig(Config):
     MAIL_PORT = 465
     MAIL_USE_SSL = True
     # MAIL_USE_TLS = True  ## 默认就是 false, 加上警示自己
-    MAIL_USERNAME = 'xia_jinyatai@163.com'
+    MAIL_USERNAME = 'XXXXXXXXXXX@163.com'
     MAIL_PASSWORD = 'xiaemail1'
     SQLALCHEMY_DATABASE_URI = os.environ.get('DEV_DATABASE_URL') or \
                               'sqlite:///' + os.path.join(basedir, 'data-dev.sqlite')
