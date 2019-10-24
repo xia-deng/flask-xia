@@ -24,7 +24,7 @@ Markdown==2.6.7
 markdown2==2.3.1
 MarkupSafe==1.0
 pefile==2017.9.3
-Pillow==3.4.2
+Pillow==6.2.0
 pygame==1.9.3
 PyHook3==1.6.0
 PyInstaller==3.3.dev0+g5dc9557
