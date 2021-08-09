@@ -31,7 +31,7 @@ PyInstaller==3.3.dev0+g5dc9557
 python-dateutil==2.6.1
 python-editor==1.0.3
 pytz==2017.2
-pywin32==221
+pywin32==301
 requests==2.11.1
 six==1.10.0
 South==1.0.2
